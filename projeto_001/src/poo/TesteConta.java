@@ -12,16 +12,19 @@ public class TesteConta {
         objCC.setNumero (123);
         objCC.setSaldo (2000);
         objCC.setDono ("Marcelo");
+        objCC.setDeposito(1000);
 
         Conta objCP = new Conta(231);
         objCP.setNumero(231);
         objCP.setSaldo(2000);
         objCP.setDono("Fernando");
+        objCP.setSaque(3000);
 
         Conta objCV = new Conta(245);
         objCV.setNumero(245);
         objCV.setSaldo(2000);
         objCV.setDono("Roberto");
+        objCV.setSaque(500);
 
         System.out.println(objCC.info());
         System.out.println("----------------------");
