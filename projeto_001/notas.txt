@@ -1,0 +1,7 @@
+CTRL + SHIFT + P cria novo projeto em java
+String começa com letra maiuscula
+
+// contrutor padrão
+public conta(){
+    
+}

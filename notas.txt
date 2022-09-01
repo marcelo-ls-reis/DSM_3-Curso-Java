@@ -1,0 +1,1 @@
+Por convenção em Java variaveis começam com letra minuscula e usam CamelCase.
