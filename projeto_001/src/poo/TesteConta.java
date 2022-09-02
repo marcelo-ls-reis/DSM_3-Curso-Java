@@ -1,19 +1,29 @@
 package poo;
 
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane;
 
 public class TesteConta {
 
     public TesteConta() {
     }
 
+    
+    
     public static void main(String[] args){
         Conta objCC = new Conta(123);
         objCC.setNumero (123);
         objCC.setSaldo (2000);
         objCC.setDono ("Marcelo");
-        objCC.setDeposito(1000);
-        objCC.setSaque(3500);
+
+        Conta objDP = new Conta(123); 
+        objDP.setNumero (123);
+        objDP.setSaldo (2000);        
+        objDP.setDeposito(1000);
+
+        Conta objSQ = new Conta(123);
+        objSQ.setNumero (123);
+        objSQ.setSaldo (3000);  
+        objSQ.setSaque(4000);
 
         // Conta objCP = new Conta(231);
         // objCP.setNumero(231);
@@ -29,11 +39,19 @@ public class TesteConta {
 
         System.out.println(objCC.info());
         System.out.println("----------------------");
+        System.out.println(objDP.dep());
+        System.out.println("----------------------");
+        System.out.println("Saldo: " + objDP.saldo);
+        System.out.println("----------------------");
+        System.out.println(objSQ.saq());
+        System.out.println("----------------------");
+        System.out.println("Saldo: " + objSQ.saldo);
+        System.out.println("----------------------");
         // System.out.println(objCP.info());
         // System.out.println("----------------------");
         // System.out.println(objCV.info());
         // JOptionPane.showMessageDialog(null, objCP.info());
-        JOptionPane.showMessageDialog(null, objCC.info());
+        // JOptionPane.showMessageDialog(null, objCC.info());
         // JOptionPane.showMessageDialog(null, objCV.info());
 
         // System.out.println("------REFERENCIA------");
