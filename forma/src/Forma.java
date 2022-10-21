@@ -2,7 +2,9 @@ public abstract class Forma{
 
     float altura;
     float largura;
-    
+    double pi;
+    double raio;
+
     public void calculaArea(){
         if (altura == largura){
             System.out.println("Quadrado");

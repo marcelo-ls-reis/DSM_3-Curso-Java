@@ -1,4 +1,4 @@
-public class Circulo extends Retangulo {
-    double pi;
-    double raio;
+public class Circulo extends Forma {
+    double area;
+    area = pi * raio^2;
 }
