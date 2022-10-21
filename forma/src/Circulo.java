@@ -1,4 +1,7 @@
+
 public class Circulo extends Forma {
-    double area;
-    area = pi * raio^2;
+
+    public void area(){
+       System.out.println("Área do circulo: " + Math.PI * Math.pow(raio, 2) + "metros"); 
+   }
 }
