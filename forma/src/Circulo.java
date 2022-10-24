@@ -1,7 +1,11 @@
 
 public class Circulo extends Forma {
 
-    public void area(){
-       System.out.println("Área do circulo: " + Math.PI * Math.pow(raio, 2) + "metros"); 
+    public float calcularArea(){
+        return (float)Math.PI * (float)Math.pow(raio, 2); 
+   }
+
+   public float calcularPerimetro(){
+       return 2 * (float)Math.PI * raio;
    }
 }
