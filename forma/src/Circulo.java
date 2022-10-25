@@ -1,5 +1,8 @@
 
 public class Circulo extends Forma {
+    public Circulo(){
+        setFigura("Circulo");
+    }
 
     public float calcularArea(){
         return (float)Math.PI * (float)Math.pow(getRaio(), 2); 
