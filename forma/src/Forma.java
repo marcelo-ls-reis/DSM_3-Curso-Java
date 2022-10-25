@@ -27,8 +27,9 @@ public abstract class Forma {
     public void setRaio(float raio) {
         this.raio = raio;
     }
-    Random Valor = new Random();
+    Random Valor = new Random();{
         raio = Valor.nextInt(50);
-
-    
+        largura = Valor.nextInt(50);
+        altura = Valor.nextInt(50);
+    }
 }

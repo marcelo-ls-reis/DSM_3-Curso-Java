@@ -1,11 +1,11 @@
 public class Retangulo extends Forma {
 
     public float calcularArea(){
-        return altura * largura;
+        return getAltura() * getLargura();
     }
      
      public float calcularPerimetro(){
-         return (altura + largura) * 2;
+         return (getAltura() + getLargura()) * 2;
      }
           
 }

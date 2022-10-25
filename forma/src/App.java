@@ -1,23 +1,26 @@
-import java.util.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
         Retangulo retangulo = new Retangulo();
-        retangulo.altura = 11;
-        retangulo.largura = 10;
-
-        System.out.println("Área do Retangulo = " + retangulo.calcularArea());
         
-        retangulo.altura = 10;
-        retangulo.largura = 10;
-
+        System.out.println("Altura = " + retangulo.getAltura());
+        System.out.println("Largura = " + retangulo.getLargura());
+        System.out.println("Área do Retangulo = " + retangulo.calcularArea());
         System.out.println("Perímetro do Retangulo = " + retangulo.calcularPerimetro());
+    
         Circulo circulo = new Circulo();
-        Random Valor = new Random();
-        circulo.raio = Valor.nextInt(50);
-        System.out.println("Raio = " + circulo.raio);
+
+        System.out.println("Raio = " + circulo.getRaio() );
         System.out.println("Área do Circulo = " + circulo.calcularArea());
         System.out.println("Perímetro do Circulo = " + circulo.calcularPerimetro());
-         
+
+        Quadrado quadadro = new Quadrado();
+        
+        if(getAltura == getLargura){
+        System.out.println("Altura = " + retangulo.getAltura());
+        System.out.println("Largura = " + retangulo.getLargura());
+        System.out.println("Área do Retangulo = " + retangulo.calcularArea());
+        System.out.println("Perímetro do Retangulo = " + retangulo.calcularPerimetro());
+    } 
     }
 }
