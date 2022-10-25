@@ -9,14 +9,14 @@ public class App {
             int valor = v.nextInt();
 
             if (valor % 3 == 0) forma[i] = new Retangulo();
-            if ((valor % 3 == 1) || (valor % 3 == -1)) forma[i] = new Circulo();
-            if((valor % 3 == 2) || (valor % 3 == -2)) forma[i]= new Quadrado();
+            if ((valor % 3 == 1) || (valor % 3 == -1)) forma[i] = new Quadrado();
+            if((valor % 3 == 2) || (valor % 3 == -2)) forma[i]= new Circulo();
             forma[i].setDados();
         }
 
         for(int i = 0; i < 5; i ++){
-            System.out.println(forma[i].getFigura() + forma[i].calcularArea());
-            System.out.println(forma[i].getFigura() + forma[i].calcularPerimetro()); 
+            System.out.println("\nÁrea = " + forma[i].getFigura() + " " + forma[i].calcularArea());
+            System.out.println("\nPerímetro = " + forma[i].getFigura() + " " + forma[i].calcularPerimetro()); 
         }
     //     Retangulo retangulo = new Retangulo();
         
